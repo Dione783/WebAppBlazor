@@ -1,0 +1,13 @@
+﻿@page
+@model PizzaNamespace.pizzaModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1>
+    @ViewData["Title"]
+</h1>
+<form>
+    <input asp-for="NewPizza.Name">
+    <input asp-for="NewPizza.Preco">
+</form>
